@@ -1,0 +1,18 @@
+﻿<Window x:Class="MadMail.MailWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MadMail"
+        mc:Ignorable="d"
+        Title="MailWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Отправитель:" HorizontalAlignment="Left" Margin="36,36,0,0" VerticalAlignment="Top"/>
+        <Label Name="Sender" Content="" HorizontalAlignment="Left" Margin="125,36,0,0" VerticalAlignment="Top"/>
+
+        <Label Content="Тема:" HorizontalAlignment="Left" Margin="36,67,0,0" VerticalAlignment="Top"/>
+        <Label Name="Subject"  Content="" HorizontalAlignment="Left" Margin="81,67,0,0" VerticalAlignment="Top"/>
+        <TextBlock Name="Text" HorizontalAlignment="Left" Margin="36,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Height="217" Width="735"/>
+        <Button Name="Btn" Content="Просмотреть вложение" HorizontalAlignment="Left" Margin="38,369,0,0" VerticalAlignment="Top" Click="btn_Click"/>
+    </Grid>
+</Window>
